@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# pytest / coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Parquet / data cache
+.cache/
+*.parquet
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+*.log
+
+# Output (generated — don't commit large CSVs)
+output/
